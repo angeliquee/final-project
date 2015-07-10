@@ -1,0 +1,61 @@
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  width: 600px;
+  background-color: #33CCFF;
+}
+.poptato {
+  background-image: url("sweet potato.jpeg");
+  height:145px;
+}
+.turkey{
+  background-image: url("chicken.jpg");
+  height:145px;
+}
+.pizza {
+  background-image: url("pizza.jpeg");
+  height:145px;
+}
+.chicken {
+  background-image: url("chicken.jpg");
+  height:145px;
+}
+p {
+  color:black;
+}
+ li{
+	display: inline;
+  padding:20px 20px 20px;
+  }
+  header{
+    float:right;
+  }
+nav{
+	background-color: black;
+  clear:both;
+}
+.a{
+	color: #FF99FF;
+	text-decoration: none;
+
+}
+.a:hover{
+	text-decoration: underline;
+}
+footer {
+  background-color: black;
+  color:#FF99FF;
+}
+img {
+  width: 600px;
+}
+@media (max-width: 600px){
+  img{
+    display: none;
+  }
+  }
+
+ #icon{
+  float:left;
+  /*position: absolute;*/
+ }
