@@ -23,21 +23,21 @@ body {
 p {
   color:black;
 }
+.special{
+  display: block;
+}
  li{
 	display: inline;
   padding:20px 20px 20px;
-  }
-  header{
-    float:right;
   }
 nav{
 	background-color: black;
   clear:both;
 }
+
 .a{
 	color: #FF99FF;
 	text-decoration: none;
-
 }
 .a:hover{
 	text-decoration: underline;
@@ -53,9 +53,4 @@ img {
   img{
     display: none;
   }
-  }
-
- #icon{
-  float:left;
-  /*position: absolute;*/
- }
+  
